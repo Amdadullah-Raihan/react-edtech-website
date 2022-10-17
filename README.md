@@ -1,3 +1,3 @@
 # React edTech Website
-### Router Practice 
+### React Router Practice 
 ## `Live site `
