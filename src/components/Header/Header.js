@@ -1,7 +1,7 @@
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useNavigate } from 'react-router-dom';
 import './Header.css'
 
 
@@ -10,14 +10,16 @@ const Header = () => {
   
   let activeStyle = {
     textDecoration: "underline",
-    color: "red"
+    fontWeight:'bold'
   };
 
   // let activeClassName = "underline";
   
   return (
+     
+      
       <div>
-          <div  className='header'>
+          <div  className='header-container'>
               <div className="logo">
                  <h1>Pro Edu</h1>
                   
@@ -32,7 +34,7 @@ const Header = () => {
                         isActive ? activeStyle : undefined
                       }
                     >
-                      Home
+                      <p>Home</p>
                     </NavLink>
                   </li>
                   <li>
@@ -42,7 +44,7 @@ const Header = () => {
                         isActive ? activeStyle : undefined
                       }
                     >
-                      Courses
+                      <p>Courses</p>
                     </NavLink>
                   </li>
                   <li>
@@ -52,7 +54,7 @@ const Header = () => {
                         isActive ? activeStyle : undefined
                       }
                     >
-                      Deals
+                     <p> Deals</p>
                     </NavLink>
                   </li>
                   <li>
@@ -62,7 +64,7 @@ const Header = () => {
                         isActive ? activeStyle : undefined
                       }
                     >
-                      Success
+                     <p> Success</p>
                     </NavLink>
                   </li>
                   <li>
@@ -72,10 +74,23 @@ const Header = () => {
                         isActive ? activeStyle : undefined
                       }
                     >
-                      About
+                      <p>About</p>
                     </NavLink>
                   </li>
+                  
                 </ul>
+
+              </div>
+              <div>
+                <NavLink
+                        to="/register"
+                        style={({ isActive }) =>
+                          isActive ? activeStyle : undefined
+                        }
+                      >
+
+                        <button className='register-btn'> Register</button>
+                  </NavLink>
               </div>
               {/* <FontAwesomeIcon icon={faBars} className="bars"></FontAwesomeIcon> */}
           </div>

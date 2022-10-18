@@ -1,13 +1,13 @@
 
 
-.header{
+.header-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 80px;
     /* background-color: black; */
 }
-.header .logo{
+.header-container .logo{
     font-size: 20px;
 }
 .nav-bar ul{
@@ -16,6 +16,20 @@
 }
 .nav-bar ul li {
     list-style: none;
-    padding: 5px 10px;
-    
+    padding: 5px 20px;
+
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: #777777;
+    font-size: 18px;
+}
+.register-btn{
+    border: 1px solid #289BDE;
+    border-radius: 3px;
+    padding: 13px 33px;
+    background-color: #fff;
+    color: #289BDE;
+    font-weight: bold;
+    font-size: 16px;
 }

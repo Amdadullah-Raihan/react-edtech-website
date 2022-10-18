@@ -1,0 +1,8 @@
+.courses-container{
+    min-height: 100vh;
+}
+.courses-container h1{
+    font-size: 45px;
+    width: 520px;
+    margin: 0 auto;
+}
