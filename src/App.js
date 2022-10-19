@@ -10,6 +10,7 @@ import Success from './components/Success/Success';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import Register from './components/Register/Register';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

@@ -1,5 +1,24 @@
 .home-conainer{
     min-height: 100vh;
+    
+}
+.home-course-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 50px 80px;
+    grid-gap: 10px;
+
+}
+.success-text{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.home-student-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 30px 80px;
+    
 }
 .intro{
     /* height: 100vh; */

@@ -74,7 +74,7 @@ const Header = () => {
                         isActive ? activeStyle : undefined
                       }
                     >
-                      <p>About</p>
+                      <p>About Us</p>
                     </NavLink>
                   </li>
                   

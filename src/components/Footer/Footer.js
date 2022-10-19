@@ -7,7 +7,7 @@ import './Footer.css'
 const Footer = () => {
     return (
         <div className='footer'>
-            <h1>This is footer</h1>
+            <h1>Pro Edu</h1>
             <p>Nurerchala, Vatara, Dhaka-1212</p>
             <p>Privaciy Policy | Terms of use</p>
             <div className='icons'>

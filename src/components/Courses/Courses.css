@@ -1,8 +1,15 @@
 .courses-container{
     min-height: 100vh;
+    margin:10px 100px;
 }
 .courses-container h1{
     font-size: 45px;
     width: 520px;
     margin: 0 auto;
+}
+.course-container{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+    grid-gap: 10px;
+    margin-top: 50px;
 }

@@ -1,10 +1,17 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { useSubmit } from 'react-router-dom';
+import useStudent from '../../hooks/useStudent';
+import useSuccess from '../../hooks/useStudent';
+import Student from '../Student/Student';
 import './Success.css'
 
 const Success = () => {
+   const [students, setStudents] = useStudent();
     return (
         <div className='success-container'>
-            <h1>This is Success Page</h1>
+            {
+                students.map(student => <Student key={student.id} student = {student}></Student> )
+            }
         </div>
     );
 };
