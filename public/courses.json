@@ -10,21 +10,21 @@
         "id": 2,
         "name": "FullStack Web Development",
         "img":"https://lh3.google.com/u/0/d/1P4oUfm0d1j88pkh9-gzE2n1XsiyPNyYV=w1366-h219-iv1",
-        "description": "lorem10",
+        "description": "Master fullstack web development with react.js, express.js, node.js, and mongoDB ",
         "price": 20
     },
     {
         "id": 3,
         "name": "Photography Basics Rules",
         "img":"https://lh3.google.com/u/0/d/1LH8xo-cVNnKzb1R0MEBMs7pISPAZtUUr=w1366-h219-iv1",   
-        "description": "lorem10",
+        "description": "Photography is all about capturing moment not capturing anything and adding filter to it",
         "price": 20
     },
     {
         "id": 4,
         "name": "JavaScript Basics to Advanced",
         "img":"https://lh3.google.com/u/0/d/196s_bDUaLjbXgQZJA6sJVFDP5buoVsUT=w1366-h219-iv1",
-        "description": "lorem10",
+        "description": "You be a pro JavaScript developer after completing this course by doing real life projects ",
         "price": 20
     },
     {
