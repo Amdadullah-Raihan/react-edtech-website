@@ -17,11 +17,15 @@
     text-align: right;
 
 }
-.btn-secondary{
+.btn-secondary-own{
     border: none;
     border-radius: 3px;
     padding: 10px 33px;
     color:#289BDE;
     font-weight: bold;
     
+}
+.btn-secondary-own:hover{
+    background-color:#004182;
+    color: white;
 }

@@ -13,7 +13,7 @@ const RegisterPop = () => {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti perspiciatis itaque praesentium commodi mollitia eaque!</p>
             </div>
             <div className="pop-btn">
-                <button onClick={handleRegister} className='btn-secondary'>Register Now</button>
+                <button onClick={handleRegister} className='btn-secondary-own'>Register Now</button>
             </div>
         </div>
     );
