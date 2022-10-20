@@ -1,15 +1,15 @@
 import React from 'react';
-import './Intro.css'
+import './Hero.css'
 import background from '../../images/cover/cover-1.png'
 import { useNavigate } from 'react-router-dom';
-const Intro = () => {
+const Hero = () => {
     const navigate= useNavigate();
     const handleGetStarted = () =>{
       navigate('/courses')
     }
 
     return (
-        <div className='intro-container' style={{ backgroundImage: `url(${background})` }}>
+        <div className='hero-container' style={{ backgroundImage: `url(${background})` }}>
             
             <div className='transparent-div'>
                 <div className="transparent-text">
@@ -22,4 +22,4 @@ const Intro = () => {
     );
 };
 
-export default Intro;
+export default Hero;

@@ -9,9 +9,9 @@ const Course = (props) => {
                  <img id='img' src={img} alt="" />
             </div>
             <div className="card-text">
-                <h3>{name}</h3>
+                <h5>{name}</h5>
                 <p>{description}</p>
-                <h5>Price: ${price}</h5>
+                <h6>Price: ${price}</h6>
             </div>
         
         </div>

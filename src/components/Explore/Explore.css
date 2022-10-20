@@ -1,0 +1,27 @@
+.explore-container{
+    height: 90vh;
+    /* background: #000; */
+    background-color: #F4FAFD;;
+    margin: 50px 80px;
+    border-radius: 5px;
+    display: flex;
+
+}
+
+.explore-img #img{
+   height: 100%;
+   border-radius: 5px 0px 0px 5px ;
+}
+.explore-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 80px;
+}
+.no-container{
+   display: flex;
+}
+.individual-no{
+    margin: 30px 50px;
+}

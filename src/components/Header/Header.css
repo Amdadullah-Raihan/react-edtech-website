@@ -11,32 +11,25 @@
     font-size: 20px;
 }
 .nav-bar{
+    height: 100%;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: center; 
+    align-items: center;
+    /* background-color: ; */
 }
-.nav-bar ul{
-    display: flex;
-    /* align-items: center;
-    justify-content: center; */
 
-}
-.nav-bar ul li {
-    list-style: none;
-    padding: 5px 20px;
-   
 
-}
-.nav-bar ul li a{
+.nav-bar  a{
     text-decoration: none;
     color: #777777;
-    font-size: 18px;
+    font-size: 18px; 
+    padding: 0 30px;
     
 }
 .register-btn{
     border: 1px solid #289BDE;
     border-radius: 3px;
-    padding: 13px 33px;
+    padding: 8px 33px;
     background-color: #fff;
     color: #289BDE;
     font-weight: bold;
@@ -46,7 +39,14 @@
     background-color: #289BDE;
     color: white;
 }
-.nav-bar ul li a:hover{
-    font-weight: bold;
-    text-decoration: underline;
+.nav-bar a:hover{
+    color: #289BDE;
+   
+}
+
+/* Mobile Device */
+@media (max-width:600px) {
+    .header-container{
+        margin: 0;
+    }
 }

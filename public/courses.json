@@ -2,120 +2,44 @@
     {
         "id": 1,
         "name": "Fundamental of ui/ux design",
-        "img":"",
+        "img":"https://lh3.google.com/u/0/d/1v7QOA2mIwnnodQX1QNZ5jnfCNEneppIW=w1366-h659-iv1",
         "description": "lorem10",
         "price": 20
     },
     {
         "id": 2,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
+        "name": "FullStack Web Development",
+        "img":"https://lh3.google.com/u/0/d/1P4oUfm0d1j88pkh9-gzE2n1XsiyPNyYV=w1366-h219-iv1",
         "description": "lorem10",
         "price": 20
     },
     {
         "id": 3,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
+        "name": "Photography Basics Rules",
+        "img":"https://lh3.google.com/u/0/d/1LH8xo-cVNnKzb1R0MEBMs7pISPAZtUUr=w1366-h219-iv1",   
         "description": "lorem10",
         "price": 20
     },
     {
         "id": 4,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
+        "name": "JavaScript Basics to Advanced",
+        "img":"https://lh3.google.com/u/0/d/196s_bDUaLjbXgQZJA6sJVFDP5buoVsUT=w1366-h219-iv1",
         "description": "lorem10",
         "price": 20
     },
     {
         "id": 5,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
+        "name": "Digital Marketing",
+        "img":"https://lh3.google.com/u/0/d/10sRu-1fev2CoJA2MSphNDYIcl5Z6d2Qg=w1366-h219-iv1",
         "description": "lorem10",
         "price": 20
     },
     {
         "id": 6,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
-        "description": "lorem10",
-        "price": 20
-    },
-    {
-        "id": 7,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
-        "description": "lorem10",
-        "price": 20
-    },
-    {
-        "id": 8,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
-        "description": "lorem10",
-        "price": 20
-    },
-    {
-        "id": 9,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
-        "description": "lorem10",
-        "price": 20
-    },
-    {
-        "id": 10,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
-        "description": "lorem10",
-        "price": 20
-    },
-    {
-        "id": 17,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
-        "description": "lorem10",
-        "price": 20
-    },
-    {
-        "id": 11,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
-        "description": "lorem10",
-        "price": 20
-    },
-    {
-        "id": 12,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
-        "description": "lorem10",
-        "price": 20
-    },
-    {
-        "id": 13,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
-        "description": "lorem10",
-        "price": 20
-    },
-    {
-        "id": 14,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
-        "description": "lorem10",
-        "price": 20
-    },
-    {
-        "id": 15,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
-        "description": "lorem10",
-        "price": 20
-    },
-    {
-        "id": 16,
-        "name": "Fundamental of ui/ux design",
-        "img":"",
+        "name": "Motion Graphics",
+        "img":"https://lh3.google.com/u/0/d/1vBb-SyJotiVQsJ9OJC0oceTZgGb-_JGI=w1366-h219-iv1",
         "description": "lorem10",
         "price": 20
     }
+    
 ]

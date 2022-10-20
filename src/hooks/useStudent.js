@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 const useStudent = () => {
     const [students, setStudents] = useState([]);
     useEffect(()=>{
-        fetch('success.json')
+        fetch('student.json')
         .then(res=> res.json())
         .then(data=>setStudents(data))
 
