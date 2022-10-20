@@ -1,5 +1,7 @@
-.home-conainer{
+.home-container{
     min-height: 100vh;
+    margin-top: 10px;
+    margin-bottom: 50px;
     
 }
 .home-course-container{

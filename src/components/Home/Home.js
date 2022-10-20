@@ -6,7 +6,8 @@ import useStudent from '../../hooks/useStudent';
 import useSuccess from '../../hooks/useStudent';
 import Course from '../Course/Course';
 import Courses from '../Courses/Courses';
-import IndividualIntervalsExample from '../IndividualIntervalsExample/IndividualIntervalsExample';
+import Intro from '../Intro/Intro';
+import RegisterPop from '../RegisterPop/RegisterPop';
 import Student from '../Student/Student';
 
 import Success from '../Success/Success';
@@ -36,9 +37,8 @@ const Home = () => {
     
     return (
         <div className='home-container'>
-            <div className='intro'>
-                {/* <h1>This is home page</h1> */}
-                <IndividualIntervalsExample></IndividualIntervalsExample>
+            <div>
+                <Intro></Intro>
             </div>
             <div className="home-courses-container">
                 <div >
@@ -51,6 +51,9 @@ const Home = () => {
                     }
                 </div>
                 <button onClick={handleViewCourses} className='btn-primary'>See All Courses</button>
+            </div>
+            <div>
+                    <RegisterPop></RegisterPop>
             </div>
             <div className='home-success-container'>
                 <div className='success-text'>

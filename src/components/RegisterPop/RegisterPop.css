@@ -1,0 +1,27 @@
+.pop-container{
+    /* height: 380px; */
+    background-color: #289BDE;
+    border-radius: 5px;
+    margin: 50px 80px;
+    padding: 60px 80px;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.pop-text{
+    flex:1;
+    text-align: left;
+}
+.pop-btn{
+    flex:1;
+    text-align: right;
+
+}
+.btn-secondary{
+    border: none;
+    border-radius: 3px;
+    padding: 10px 33px;
+    color:#289BDE;
+    font-weight: bold;
+    
+}
