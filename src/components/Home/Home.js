@@ -54,7 +54,8 @@ const Home = () => {
             <div>
                 <Explore></Explore>
             </div>
-            <div>
+            <div>  
+                
                     <RegisterPop></RegisterPop>
             </div>
             <div className='home-success-container'>
