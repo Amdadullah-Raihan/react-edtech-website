@@ -1,13 +1,13 @@
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useState } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import './Header.css'
 
 
 const Header = () => {
- 
+  const [isLogin, setIsLogin] = useState(false)
   
   let activeStyle = {
     textDecoration: "underline",
@@ -19,6 +19,10 @@ const Header = () => {
   const handleRegister = () => {
     navigate('/register')
   }
+  const handleLogin = () => {
+    navigate('/login')
+  }
+
 
   // let activeClassName = "underline";
   
@@ -55,7 +59,11 @@ const Header = () => {
             </Navbar>
   
               <div>
-                  <button onClick={handleRegister} className='register-btn'> Register</button> 
+                {
+                  isLogin?<button onClick={handleRegister} className='register-btn'> Register</button>: 
+                  <button onClick={handleLogin} className='register-btn'> Login</button>
+                  
+                }
               </div>
               {/* <FontAwesomeIcon icon={faBars} className="bars"></FontAwesomeIcon> */}
           </div>
