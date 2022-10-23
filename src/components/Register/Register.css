@@ -79,3 +79,23 @@
 .fa-facebook{
     color: #4A87FF;
 }
+.hr{
+    border-bottom: 1px solid #289BDE;
+    height: 1px;
+    position: relative;
+    width: 100%;
+    margin: 30px 0;
+    z-index: 1;
+}
+.hr p{
+    position:absolute;
+    bottom: -26px;
+    left: 48%;
+    background-color:white;
+    padding: 0 1px ;
+    /* font-size:1.2em; */
+    z-index: 2;
+
+  
+    
+}

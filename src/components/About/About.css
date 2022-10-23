@@ -1,3 +1,6 @@
 .about-container{
     min-height: 100vh;
+    margin: 50px 80px;
+    text-justify: auto;
+    padding: 0 100px;
 }

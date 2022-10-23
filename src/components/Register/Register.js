@@ -1,6 +1,7 @@
 import React from 'react';
 import './Register.css'
 import googleLogo from '../../images/Google__G__Logo.svg.png'
+import { Link } from 'react-router-dom';
 
 const Register = () => {
     return (
@@ -15,11 +16,15 @@ const Register = () => {
                 <input type="email" name="" id="" placeholder='Enter Your Email' />
                 <input type="password" placeholder='Enter Password' />
                 <input type="button" value="Register"  id='register-btn'/>
+                <div>
+                    <p>Already have an account?</p>
+                    <Link to='/login'>Log in</Link>
+                </div>
             </div>
             <div className='providers'>
             <div className='hr'> <p>or</p></div>
-            <button><i class="fa-brands fa-facebook"></i> Continue with Google</button>
-            <button> <img src={googleLogo} alt='' className='google-logo'/>Continue with Facebook</button>
+            <button> <img src={googleLogo} alt='' className='google-logo'/>Continue with Google</button>
+            <button><i class="fa-brands fa-facebook"></i> Continue with Facebook</button>
             <button> <i class="fa-brands fa-apple"></i> Continue with Apple ID</button>
 
         </div>
