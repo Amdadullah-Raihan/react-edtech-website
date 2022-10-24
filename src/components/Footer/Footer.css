@@ -7,3 +7,9 @@
    justify-content: center;
    align-items: center;
 }
+.icons i{
+    margin: 10px 10px;
+    font-size: 2rem;
+    /* background-color: #fff;
+    color: #161616; */
+}
