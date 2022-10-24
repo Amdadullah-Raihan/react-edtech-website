@@ -8,11 +8,13 @@ import './Success.css'
 const Success = () => {
    const [students, setStudents] = useStudent();
     return (
-        <div className='success-container'>
-            {
-                students.map(student => <Student key={student.id} student = {student}></Student> )
-            }
-        </div>
+       <div className="">
+              <div className='success-container'>
+                {
+                    students.map(student => <Student key={student.id} student = {student}></Student> )
+                }
+            </div>
+       </div>
     );
 };
 

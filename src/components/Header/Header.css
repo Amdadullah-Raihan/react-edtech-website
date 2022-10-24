@@ -45,8 +45,11 @@
 }
 
 /* Mobile Device */
-@media (max-width:600px) {
+@media only screen and (max-width:600px) {
     .header-container{
-        margin: 0;
+        padding: 10px;
+    }
+    .logo{
+        display: none;
     }
 }

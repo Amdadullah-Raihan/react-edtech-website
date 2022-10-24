@@ -14,7 +14,7 @@ const FAQ = () => {
                   <div className="col text-center">
                       <img className=" img-fluid w-100  " src={img} alt=""/>
                   </div>
-                 <div className="col d-flex align-items-center ">
+                 <div className="col d-flex align-items-center">
                      <div className="accordion" id="accordionPanelsStayOpenExample">
                         <div className="accordion-item my-3">
                             <h2 className="accordion-header" id="panelsStayOpen-headingOne">
