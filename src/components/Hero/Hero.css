@@ -30,4 +30,7 @@
         margin: 10px;
         
     }
+    .transparent-div .transparent-text{
+        width: 90%;
+    }
 }

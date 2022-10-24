@@ -16,7 +16,14 @@
 }
 
 @media only screen and (max-width: 600px) {
-  
+    .courses-container{
+        margin: 10px;
+    }
+    .courses-container h1{
+        font-size: 1.7em;
+        max-width: 100%;
+        /* margin:40px 0px; */
+    }
     .course-container{
         margin: 10px;
         grid-template-columns: repeat(1, 1fr);

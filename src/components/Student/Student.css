@@ -21,3 +21,11 @@
 .student-card p{
     color: #777777;
 }
+@media only screen and (max-width:600px) {
+    .student-card{
+        height: 450px;
+    }
+   .student-card #img{
+        height: 350px;
+    }
+}

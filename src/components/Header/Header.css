@@ -48,6 +48,9 @@
 @media only screen and (max-width:600px) {
     .header-container{
         padding: 10px;
+        position:sticky;
+        top: 0px;
+        
     }
     .logo{
         display: none;

@@ -95,7 +95,16 @@
     padding: 0 1px ;
     /* font-size:1.2em; */
     z-index: 2;
-
-  
-    
+}
+@media only screen and (max-width:600px) {
+    .register-container{
+        margin: 10px;
+    }
+    .form-container{
+        width: 100%;
+    }
+    .providers{
+        margin: 10px;
+        width: 100%;
+    }
 }
