@@ -3,7 +3,7 @@ import { useState } from "react";
 
 const useIsLogin = () => {
 
-    const [isLogin, setIslogin]=useState(false);
+    const [isLogin, setIslogin] = useState(false);
 
 
    return{

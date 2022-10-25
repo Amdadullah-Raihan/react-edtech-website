@@ -3,14 +3,14 @@ import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, signInWith
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import initializeAuthentication from "../Firebase/firebase.init";
-import useIsLogin from "./useIsLogin";
+
 
 initializeAuthentication();
 
 const useFirebase = () =>{
     const [user, setUser] = useState({})
+    const [error, setError] = useState('')
     const navigate = useNavigate();
-    const {isLogin, setIsLogin} = useIsLogin();
 
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
@@ -28,23 +28,30 @@ const useFirebase = () =>{
         createUserWithEmailAndPassword(auth, email, password)
             .then(result=> {
                 console.log(result.user);
+                setUser(result.user)
+                changeRouteToHome()
             })
+            .catch(error=>{
+               setError(error.message)
 
+         })
     }
-
     const signInWithGoogle = (e) => {
-        e.preventDefault()
+        // e.preventDefault()
         signInWithPopup(auth, googleProvider)
             .then(result => {
                 console.log(result.user)
                 setUser(result.user)
                 changeRouteToHome()
-                setIsLogin(!isLogin)
+                
+            })
+            .catch(error=>{
+                setError(error.message)
             })
     }
     return{
-        signInWithGoogle,
         user,
+        signInWithGoogle,
         singInwithEmailPass,
         signUpwithEmailPass,
 

@@ -11,10 +11,10 @@ const Footer = () => {
             <p>Nurerchala, Vatara, Dhaka-1212</p>
             <p>Privaciy Policy | Terms of use</p>
             <div className='icons'>
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-linkedin-in"></i>
-                <i class="fa-brands fa-tiktok"></i>
+                <i className="fa-brands fa-facebook-f"></i>
+                <i className="fa-brands fa-twitter"></i>
+                <i className="fa-brands fa-linkedin-in"></i>
+                <i className="fa-brands fa-tiktok"></i>
             </div>
         </div>
     );

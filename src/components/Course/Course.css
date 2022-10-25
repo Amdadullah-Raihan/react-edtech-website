@@ -24,10 +24,15 @@
     flex: 2;
 }
 @media only screen and (max-width:600px) {
+    
     .course-card{
-        height: 225px;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+
     }
     .card-text{
         flex: 1;
+        padding: 15px;
     }
 }

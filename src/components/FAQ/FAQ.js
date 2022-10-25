@@ -1,19 +1,17 @@
 import React from 'react';
 import './FAQ.css'
-import img from '../../images/faq.png'
+import img from '../../images/thinker.a1f176d5.png'
 const FAQ = () => {
     return (
         <section className='faq-container'>
               <div >
-                  <h1 classNameName="fw-bold text-center">
-                      <span className="header-color">Frequently Asked</span> <span className="orange-color">Question</span>
+                  <h1 className="fw-bold text-center faq-text">
+                      <span>Frequently Asked</span> <span className="orange-color">Question</span>
                   </h1>
               </div>
-            <div className="cotainer">
-              <div className="row row-cols-1 row-cols-lg-2 ">
-                  <div className="col text-center">
-                      <img className=" img-fluid w-100  " src={img} alt=""/>
-                  </div>
+            <div className="container">
+              <div className="row row-cols-1 row-cols-lg-2 faq">
+                  
                  <div className="col d-flex align-items-center">
                      <div className="accordion" id="accordionPanelsStayOpenExample">
                         <div className="accordion-item my-3">
@@ -68,6 +66,9 @@ const FAQ = () => {
                         </div>
                     </div>
                  </div>
+                 <div className="col text-center">
+                      <img className=" img-fluid w-100  " src={img} alt=""/>
+                  </div>
               </div>
           </div>
         </section>

@@ -3,13 +3,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink, useNavigate } from 'react-router-dom';
-import useIsLogin from '../../hooks/useIsLogin';
+import useFirebase from '../../hooks/useFirebase'
 import './Header.css'
 
 
 const Header = () => {
-  const {isLogin, setIsLogin} = useIsLogin();
-  console.log(isLogin);
+  // const {isLogin, setIsLogin} = useIsLogin();
+  const {user} = useFirebase();
+  console.log("from header", user);
   let activeStyle = {
     textDecoration: "underline",
     fontWeight:'bold',
@@ -61,7 +62,7 @@ const Header = () => {
   
               <div>
                 {
-                  isLogin?<button onClick={handleRegister} className='register-btn'> Log Out</button>: 
+                  user.email?<button onClick={handleRegister} className='register-btn'> Log Out</button>: 
                   <button onClick={handleLogin} className='register-btn'> Login</button>
                   
                 }
